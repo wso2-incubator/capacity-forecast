@@ -1,0 +1,83 @@
+[
+    {
+      "Id": "m1",
+      "MetricStat": {
+        "Metric": {
+            "Namespace": "AWS/EC2", 
+            "Dimensions": [
+                {
+                    "Name": "InstanceId", 
+                    "Value": "i-00a0e8fcd69af8bd6"
+                }
+            ], 
+            "MetricName": "NetworkIn"
+        },
+        
+        "Period": 300,
+        "Stat":"Maximum"
+      },
+      
+      "ReturnData": true
+    },
+    {
+        "Id": "m2",
+        "MetricStat": {
+          "Metric": {
+              "Namespace": "AWS/EC2", 
+              "Dimensions": [
+                  {
+                      "Name": "InstanceId", 
+                      "Value": "i-00a0e8fcd69af8bd6"
+                  }
+              ], 
+              "MetricName": "NetworkOut"
+          },
+          
+          "Period": 300,
+          "Stat":"Maximum"
+        },
+        
+        "ReturnData": true
+      },
+      {
+        "Id": "m3",
+        "MetricStat": {
+          "Metric": {
+              "Namespace": "System/Linux", 
+              "Dimensions": [
+                  {
+                      "Name": "InstanceId", 
+                      "Value": "i-00a0e8fcd69af8bd6"
+                  }
+              ], 
+              "MetricName": "MemoryUtilization"
+          },
+          
+          "Period": 300,
+          "Stat":"Maximum"
+        },
+        
+        "ReturnData": true
+      },
+      {
+        "Id": "m4",
+        "MetricStat": {
+          "Metric": {
+              "Namespace": "AWS/EC2", 
+              "Dimensions": [
+                  {
+                      "Name": "InstanceId", 
+                      "Value": "i-00a0e8fcd69af8bd6"
+                  }
+              ], 
+              "MetricName": "CPUUtilization"
+          },
+          
+          "Period": 300,
+          "Stat":"Maximum"
+        },
+        
+        "ReturnData": true
+      }
+
+]

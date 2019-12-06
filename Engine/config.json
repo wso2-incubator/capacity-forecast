@@ -1,0 +1,14 @@
+{
+  "FEED_LEN": 50,
+  "PREDICT_LEN": 6,
+  "NUM_LAYERS_LSTM": 3,
+  "NUM_LAYERS_TCN": 2,
+  "INPUT_DIM": 12,
+  "MAIL_INTERVAL": 600,
+  "TRAIN_INTERVAL": 180,
+  "PREDICT_INTERVAL": 60,
+  "TO_ADDRESS": "sandunmenaka@gmail.com",
+  "MODEL" : "LSTM",
+  "WINDOW_LEN": 5,
+  "GET_METRIC_INTERVAL": 1800
+}
